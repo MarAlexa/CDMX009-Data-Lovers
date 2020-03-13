@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6f6a3;
+    background: radial-gradient(circle, #e6f6a3, rgb(155, 241, 235));
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+section img {
+    order: 2;
+    display: flex;
+    align-self: center;
+    width: 38vw;
+}
+
+
+@media (max-width: 600px) {
+
+    
+}
+
+h1 {
+    color: #363d41;
+    font-size: 2em;
+    font-family: 'Black Ops One', cursive;
+    letter-spacing: 1px;
+}
+
+h1 span {
+    font-size: 0.5em;
+    letter-spacing: 3px;
+    line-height: 10%;
+}
+upNum.addEventListener("click", sortByNumUp)

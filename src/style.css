@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fbef68;
+    background-attachment: fixed;
+    background-image: url(img/snuffles.png), radial-gradient(circle, #fbef68, #feac41);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+h1 {
+    padding: 5px 0 0 5px;
+    color: #363d41;
+    font-size: 2em;
+    font-family: 'Coda', monospace;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    padding: 0 0 0 5px;
+    color: #363d41;
+    font-size: 1.5em;
+    letter-spacing: 6px;
+    font-family: 'Coda', monospace;
+    line-height: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section button {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+section img {
+    align-self: center;
+    width: 38vw;
+}
+
+@media (max-width: 600px) {
+
+    header img {
+        height: 38vh;
+    }
+}
+

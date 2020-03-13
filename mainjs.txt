@@ -1,0 +1,24 @@
+import { example } from './data.js';
+
+console.log(example);
+
+/* nodos
+const logoHeader = document.querySelector('header');
+const logoImg = document.querySelector('header img')
+const homeButton = document.getElementById('home');
+
+// funciones
+function start () {
+  logoHeader.style.height = '12vh';
+  logoHeader.style.alignSelf = 'flex-start';
+  logoHeader.style.padding = '5px';
+  logoImg.src = ''
+  logoImg.style.height = '12vh';
+  logoImg.style.width = 'auto';
+} */
+
+function refreshPage() {
+  window.location.reload();
+}
+
+homeButton.addEventListener('click', start);
